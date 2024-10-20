@@ -1,0 +1,11 @@
+{
+  "name": "meet-black",
+  "version": "1.0.0",
+  "description": "by Danial, Tara and Farnaz",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./assets/css/input.css -o ./assets/css/style.css --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
