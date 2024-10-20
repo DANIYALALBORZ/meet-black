@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    .menu-li-color {
+        @apply text-[#81859f]
+    }
+
+    .menu-ul {
+        @apply flex fixed top-2 left-1/2 -translate-x-1/2 items-center bg-white/10 px-4 py-2 rounded-full text-white w-fit m-auto border-2 border-white/10;
+    }
+
+    @font-face {
+        font-family: 'manrope';
+        src: url(../font/Manrope/Manrope-Medium.ttf);
+        /*
+        src: url(../font/Manrope/Manrope-Light.ttf);
+        src: url(../font/Manrope/Manrope-ExtraLight.ttf);
+        src: url(../font/Manrope/Manrope-Regular.ttf);
+        src: url(../font/Manrope/Manrope-SemiBold.ttf);
+        src: url(../font/Manrope/Manrope-Bold.ttf);
+        src: url(../font/Manrope/Manrope-ExtraBold.ttf); */
+    }
+}
+
+@layer components {}

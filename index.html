@@ -6,10 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>meet black</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+
 </head>
 
-<body>
-    <h1 class="bg-black text-white">Hello World!!!</h1>
+<body class="bg-black font-Manrope">
+
+    <nav>
+        <ul class="menu-ul">
+            <li>
+                <a href="./">
+                    <img class="w-24" src="./assets/img/meet-Black-Logo.svg" alt="meet black ">
+                </a>
+            </li>
+            <li id="hamburger-icon" class="ms-8">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                </svg>
+            </li>
+        </ul>
+
+        <div class="fixed top-16 w-full h-full overflow-hidden">
+            <ul id="hamburger-ul"
+                class="absolute flex-col -z-10 -top-60 left-1/2 w-screen rounded-3xl transition-all duration-1000 text-center items-center py-4 space-y-4 -translate-x-1/2 *:menu-li-color px-4 bg-white/10 text-white">
+                <li class="hover:text-white">
+                    <a href="#">Experience</a>
+                </li>
+                <li class="hover:text-white">
+                    <a href="#">Integration</a>
+                </li>
+                <li class="hover:text-white">
+                    <a href="#">Features</a>
+                </li>
+                <li class="hover:text-white">
+                    <a href="#">Download</a>
+                </li>
+                <button
+                    class="bg-white !text-black py-1 hover:shadow-sign-up-btn transition-shadow duration-700 px-4 rounded-full font-bold">Sign
+                    up</button>
+            </ul>
+        </div>
+    </nav>
+
+
+    <script src="./assets/js/nav.js"></script>
 </body>
 
 </html>
