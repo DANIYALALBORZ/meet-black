@@ -8,7 +8,7 @@
     }
 
     .menu-ul {
-        @apply flex fixed top-2 left-1/2 -translate-x-1/2 items-center bg-white/10 px-4 py-2 rounded-full text-white w-fit m-auto border-2 border-white/10;
+        @apply flex fixed top-2 left-1/2 -translate-x-1/2 items-center bg-white/10 px-4 py-2 rounded-full text-white w-max m-auto border-2 border-white/10;
     }
 
     @font-face {
@@ -22,6 +22,17 @@
         src: url(../font/Manrope/Manrope-Bold.ttf);
         src: url(../font/Manrope/Manrope-ExtraBold.ttf); */
     }
+
+    @font-face {
+        font-family: 'manrope-bold';
+        src: url(../font/Manrope/Manrope-Bold.ttf);
+    }
+
+
 }
 
-@layer components {}
+@layer utilities {
+    .meet-black-color {
+        background-image: linear-gradient(to right, #eec5bd, #f3b1a5 35%, #c6caf6 72%, #dad9e9);
+    }
+}

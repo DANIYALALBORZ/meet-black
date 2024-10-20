@@ -6,30 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>meet black</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-
 </head>
 
-<body class="bg-black font-Manrope">
+<body class="bg-black font-Manrope" style="height: 1000000px;">
 
-    <nav>
-        <ul class="menu-ul">
+    <nav class="">
+        <ul id="menu-ul" class="menu-ul opacity-0 transition-all duration-1000" onload="opacityTrue()">
             <li>
                 <a href="./">
                     <img class="w-24" src="./assets/img/meet-Black-Logo.svg" alt="meet black ">
                 </a>
             </li>
-            <li id="hamburger-icon" class="ms-8">
+            <li id="hamburger-icon" class="ms-8 lg:hidden">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list"
                     viewBox="0 0 16 16">
                     <path fill-rule="evenodd"
                         d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
                 </svg>
             </li>
+            <ul class="hidden lg:flex items-center *:px-8 *:menu-li-color px-4 ">
+                <li class="hover:text-white">
+                    <a href="#">Experience</a>
+                </li>
+                <li class="hover:text-white">
+                    <a href="#">Integration</a>
+                </li>
+                <li class="hover:text-white">
+                    <a href="#">Features</a>
+                </li>
+                <li class="hover:text-white">
+                    <a href="#">Download</a>
+                </li>
+                <button
+                    class="bg-white !text-black py-1 hover:shadow-sign-up-btn transition-shadow duration-700 px-4 rounded-full font-bold">Sign
+                    up</button>
+            </ul>
+            <!-- <ul id="hamburger-ul"
+                class="hidden lg:flex absolute -z-10 left-1/2 w-screen md:w-[80vw] rounded-3xl transition-all duration-1000 text-center items-center py-4 space-y-4 -translate-x-1/2 *:menu-li-color px-4 bg-white/10 text-white">
+            </ul> -->
         </ul>
 
         <div class="fixed top-16 w-full h-full overflow-hidden">
             <ul id="hamburger-ul"
-                class="absolute flex-col -z-10 -top-60 left-1/2 w-screen rounded-3xl transition-all duration-1000 text-center items-center py-4 space-y-4 -translate-x-1/2 *:menu-li-color px-4 bg-white/10 text-white">
+                class="lg:hidden absolute flex-col -z-10 -top-60 left-1/2 w-screen md:w-[80vw] rounded-3xl transition-all duration-1000 text-center items-center py-4 space-y-4 -translate-x-1/2 *:menu-li-color px-4 bg-white/10 text-white">
                 <li class="hover:text-white">
                     <a href="#">Experience</a>
                 </li>
@@ -49,8 +68,18 @@
         </div>
     </nav>
 
+    <section
+        class="w-full h-screen text-white flex justify-center items-center space-x-16 text-[10rem] font-manrope-bold">
+        <div id="meet" class="text-transparent bg-clip-text meet-black-color animate-meet">
+            Meet
+        </div>
+        <div id="black" class="text-transparent bg-clip-text meet-black-color animate-black">
+            Black
+        </div>
+    </section>
 
     <script src="./assets/js/nav.js"></script>
+    <script src="./assets/js/section-one.js"></script>
 </body>
 
 </html>
