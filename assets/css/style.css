@@ -1,6 +1,4 @@
-*,
-::before,
-::after {
+*, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -10,19 +8,19 @@
   --tw-skew-y: 0;
   --tw-scale-x: 1;
   --tw-scale-y: 1;
-  --tw-pan-x: ;
-  --tw-pan-y: ;
-  --tw-pinch-zoom: ;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
   --tw-scroll-snap-strictness: proximity;
-  --tw-gradient-from-position: ;
-  --tw-gradient-via-position: ;
-  --tw-gradient-to-position: ;
-  --tw-ordinal: ;
-  --tw-slashed-zero: ;
-  --tw-numeric-figure: ;
-  --tw-numeric-spacing: ;
-  --tw-numeric-fraction: ;
-  --tw-ring-inset: ;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
   --tw-ring-color: rgb(59 130 246 / 0.5);
@@ -30,28 +28,28 @@
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
   --tw-shadow-colored: 0 0 #0000;
-  --tw-blur: ;
-  --tw-brightness: ;
-  --tw-contrast: ;
-  --tw-grayscale: ;
-  --tw-hue-rotate: ;
-  --tw-invert: ;
-  --tw-saturate: ;
-  --tw-sepia: ;
-  --tw-drop-shadow: ;
-  --tw-backdrop-blur: ;
-  --tw-backdrop-brightness: ;
-  --tw-backdrop-contrast: ;
-  --tw-backdrop-grayscale: ;
-  --tw-backdrop-hue-rotate: ;
-  --tw-backdrop-invert: ;
-  --tw-backdrop-opacity: ;
-  --tw-backdrop-saturate: ;
-  --tw-backdrop-sepia: ;
-  --tw-contain-size: ;
-  --tw-contain-layout: ;
-  --tw-contain-paint: ;
-  --tw-contain-style: ;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
 }
 
 ::backdrop {
@@ -64,19 +62,19 @@
   --tw-skew-y: 0;
   --tw-scale-x: 1;
   --tw-scale-y: 1;
-  --tw-pan-x: ;
-  --tw-pan-y: ;
-  --tw-pinch-zoom: ;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
   --tw-scroll-snap-strictness: proximity;
-  --tw-gradient-from-position: ;
-  --tw-gradient-via-position: ;
-  --tw-gradient-to-position: ;
-  --tw-ordinal: ;
-  --tw-slashed-zero: ;
-  --tw-numeric-figure: ;
-  --tw-numeric-spacing: ;
-  --tw-numeric-fraction: ;
-  --tw-ring-inset: ;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
   --tw-ring-color: rgb(59 130 246 / 0.5);
@@ -84,28 +82,28 @@
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
   --tw-shadow-colored: 0 0 #0000;
-  --tw-blur: ;
-  --tw-brightness: ;
-  --tw-contrast: ;
-  --tw-grayscale: ;
-  --tw-hue-rotate: ;
-  --tw-invert: ;
-  --tw-saturate: ;
-  --tw-sepia: ;
-  --tw-drop-shadow: ;
-  --tw-backdrop-blur: ;
-  --tw-backdrop-brightness: ;
-  --tw-backdrop-contrast: ;
-  --tw-backdrop-grayscale: ;
-  --tw-backdrop-hue-rotate: ;
-  --tw-backdrop-invert: ;
-  --tw-backdrop-opacity: ;
-  --tw-backdrop-saturate: ;
-  --tw-backdrop-sepia: ;
-  --tw-contain-size: ;
-  --tw-contain-layout: ;
-  --tw-contain-paint: ;
-  --tw-contain-style: ;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
 }
 
 /*
@@ -154,7 +152,7 @@ html,
   -moz-tab-size: 4;
   /* 3 */
   -o-tab-size: 4;
-  tab-size: 4;
+     tab-size: 4;
   /* 3 */
   font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
@@ -199,7 +197,7 @@ Add the correct text decoration in Chrome, Edge, and Safari.
 
 abbr:where([title]) {
   -webkit-text-decoration: underline dotted;
-  text-decoration: underline dotted;
+          text-decoration: underline dotted;
 }
 
 /*
@@ -488,8 +486,7 @@ textarea {
 2. Set the default placeholder color to the user's configured gray 400 color.
 */
 
-input::-moz-placeholder,
-textarea::-moz-placeholder {
+input::-moz-placeholder, textarea::-moz-placeholder {
   opacity: 1;
   /* 1 */
   color: #9ca3af;
@@ -700,14 +697,11 @@ video {
 }
 
 @keyframes meet {
-
-  0%,
-  50% {
+  0%, 50% {
     transform: rotateX(90deg);
   }
 
-  50%,
-  100% {
+  50%, 100% {
     transform: rotateX(0deg);
   }
 }
@@ -732,13 +726,13 @@ video {
   justify-content: center;
 }
 
-.space-x-3> :not([hidden])~ :not([hidden]) {
+.space-x-3 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.75rem * var(--tw-space-x-reverse));
   margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.space-y-4> :not([hidden])~ :not([hidden]) {
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
@@ -777,7 +771,7 @@ video {
 
 .bg-clip-text {
   -webkit-background-clip: text;
-  background-clip: text;
+          background-clip: text;
 }
 
 .\!px-4 {
@@ -816,79 +810,17 @@ video {
   font-family: manrope-bold;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-\[3\.2rem\] {
   font-size: 3.2rem;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .text-\[34px\] {
   font-size: 34px;
-}
-
-.text-\[50px\] {
-  font-size: 50px;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-\[33px\] {
-  font-size: 33px;
-}
-
-.text-\[34px\] {
-  font-size: 34px;
-}
-
-.text-7xl {
-  font-size: 4.5rem;
-  line-height: 1;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
 }
 
 .text-\[50px\] {
@@ -904,15 +836,6 @@ video {
   color: rgb(0 0 0 / var(--tw-text-opacity)) !important;
 }
 
-.text-transparent {
-  color: transparent;
-}
-
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .text-\[\#b3bcd0\] {
   --tw-text-opacity: 1;
   color: rgb(179 188 208 / var(--tw-text-opacity));
@@ -926,6 +849,15 @@ video {
 .text-\[\#d2d2d4\] {
   --tw-text-opacity: 1;
   color: rgb(210 210 212 / var(--tw-text-opacity));
+}
+
+.text-transparent {
+  color: transparent;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .opacity-0 {
@@ -956,17 +888,17 @@ video {
   background-image: linear-gradient(to right, #eec5bd, #f3b1a5 35%, #c6caf6 72%, #dad9e9);
 }
 
-.\*\:menu-li-color>* {
+.\*\:menu-li-color > * {
   --tw-text-opacity: 1;
   color: rgb(129 133 159 / var(--tw-text-opacity));
 }
 
-.\*\:px-8>* {
+.\*\:px-8 > * {
   padding-left: 2rem;
   padding-right: 2rem;
 }
 
-.\*\:font-manrope-bold>* {
+.\*\:font-manrope-bold > * {
   font-family: manrope-bold;
 }
 
@@ -982,7 +914,7 @@ video {
 }
 
 @media (min-width: 375px) {
-  .mobile-m\:space-x-\[\.67rem\]> :not([hidden])~ :not([hidden]) {
+  .mobile-m\:space-x-\[\.67rem\] > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(.67rem * var(--tw-space-x-reverse));
     margin-left: calc(.67rem * calc(1 - var(--tw-space-x-reverse)));
@@ -994,7 +926,7 @@ video {
 }
 
 @media (min-width: 425px) {
-  .mobile-l\:space-x-\[\.67rem\]> :not([hidden])~ :not([hidden]) {
+  .mobile-l\:space-x-\[\.67rem\] > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(.67rem * var(--tw-space-x-reverse));
     margin-left: calc(.67rem * calc(1 - var(--tw-space-x-reverse)));
@@ -1006,7 +938,7 @@ video {
 }
 
 @media (min-width: 480px) {
-  .mobile-xl\:space-x-\[2rem\]> :not([hidden])~ :not([hidden]) {
+  .mobile-xl\:space-x-\[2rem\] > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(2rem * var(--tw-space-x-reverse));
     margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
@@ -1018,7 +950,7 @@ video {
 }
 
 @media (min-width: 668px) {
-  .mobile-2xl\:space-x-\[2rem\]> :not([hidden])~ :not([hidden]) {
+  .mobile-2xl\:space-x-\[2rem\] > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(2rem * var(--tw-space-x-reverse));
     margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
@@ -1046,7 +978,7 @@ video {
     width: 80vw;
   }
 
-  .md\:space-x-\[1\.95rem\]> :not([hidden])~ :not([hidden]) {
+  .md\:space-x-\[1\.95rem\] > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(1.95rem * var(--tw-space-x-reverse));
     margin-left: calc(1.95rem * calc(1 - var(--tw-space-x-reverse)));
@@ -1058,10 +990,6 @@ video {
 
   .md\:pl-8 {
     padding-left: 2rem;
-  }
-
-  .md\:text-\[6\.7rem\] {
-    font-size: 6.7rem;
   }
 
   .md\:text-3xl {
@@ -1078,6 +1006,10 @@ video {
     font-size: 4.5rem;
     line-height: 1;
   }
+
+  .md\:text-\[6\.7rem\] {
+    font-size: 6.7rem;
+  }
 }
 
 @media (min-width: 992px) {
@@ -1093,13 +1025,13 @@ video {
     width: 4rem;
   }
 
-  .laptop-s\:space-x-\[2\.65rem\]> :not([hidden])~ :not([hidden]) {
+  .laptop-s\:space-x-\[2\.65rem\] > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(2.65rem * var(--tw-space-x-reverse));
     margin-left: calc(2.65rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
-  .laptop-s\:space-x-\[4rem\]> :not([hidden])~ :not([hidden]) {
+  .laptop-s\:space-x-\[4rem\] > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(4rem * var(--tw-space-x-reverse));
     margin-left: calc(4rem * calc(1 - var(--tw-space-x-reverse)));
@@ -1127,7 +1059,7 @@ video {
     font-size: 8.6rem;
   }
 
-  .laptop-s\:\*\:px-0>* {
+  .laptop-s\:\*\:px-0 > * {
     padding-left: 0px;
     padding-right: 0px;
   }
@@ -1146,14 +1078,10 @@ video {
     width: 50%;
   }
 
-  .lg\:space-x-\[3\.7rem\]> :not([hidden])~ :not([hidden]) {
+  .lg\:space-x-\[3\.7rem\] > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(3.7rem * var(--tw-space-x-reverse));
     margin-left: calc(3.7rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .lg\:text-\[9rem\] {
-    font-size: 9rem;
   }
 
   .lg\:text-\[17px\] {
@@ -1162,6 +1090,10 @@ video {
 
   .lg\:text-\[75px\] {
     font-size: 75px;
+  }
+
+  .lg\:text-\[9rem\] {
+    font-size: 9rem;
   }
 
   .lg\:leading-\[90px\] {
@@ -1190,13 +1122,13 @@ video {
 }
 
 @media (min-width: 1440px) {
-  .Desktop-l\:space-x-\[2rem\]> :not([hidden])~ :not([hidden]) {
+  .Desktop-l\:space-x-\[2rem\] > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(2rem * var(--tw-space-x-reverse));
     margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
-  .Desktop-l\:space-x-\[3\.7rem\]> :not([hidden])~ :not([hidden]) {
+  .Desktop-l\:space-x-\[3\.7rem\] > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(3.7rem * var(--tw-space-x-reverse));
     margin-left: calc(3.7rem * calc(1 - var(--tw-space-x-reverse)));
@@ -1208,7 +1140,7 @@ video {
 }
 
 @media (min-width: 2560px) {
-  .Desktop-xl\:space-x-\[3\.7rem\]> :not([hidden])~ :not([hidden]) {
+  .Desktop-xl\:space-x-\[3\.7rem\] > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(3.7rem * var(--tw-space-x-reverse));
     margin-left: calc(3.7rem * calc(1 - var(--tw-space-x-reverse)));
@@ -1220,7 +1152,7 @@ video {
 }
 
 @media (min-width: 3000px) {
-  .\34k\:space-x-\[3\.7rem\]> :not([hidden])~ :not([hidden]) {
+  .\34k\:space-x-\[3\.7rem\] > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(3.7rem * var(--tw-space-x-reverse));
     margin-left: calc(3.7rem * calc(1 - var(--tw-space-x-reverse)));
