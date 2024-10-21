@@ -3,6 +3,16 @@ module.exports = {
   content: ["./*.html"],
   theme: {
     extend: {
+      screens: {
+        'mobile-m': '375px',
+        'mobile-l': '425px',
+        'mobile-xl': '480px',
+        'mobile-2xl': '668px',
+        'laptop-s': '992px',
+        'Desktop-l': '1440px',
+        'Desktop-xl': '2560px',
+        '4k': '3000px',
+      },
       fontFamily: {
         'manrope': ['manrope'],
         'manrope-bold': ['manrope-bold'],

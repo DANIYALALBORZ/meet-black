@@ -566,11 +566,11 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   align-items: center;
   border-radius: 9999px;
-  border-width: 2px;
+  border-width: 1px;
   border-color: rgb(255 255 255 / 0.1);
   background-color: rgb(255 255 255 / 0.1);
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   --tw-text-opacity: 1;
@@ -594,7 +594,7 @@ video {
 @font-face {
   font-family: 'manrope-bold';
 
-  src: url(../font/Manrope/Manrope-Bold.ttf);
+  src: url(../font/Manrope/Manrope-ExtraBold.ttf);
 }
 
 .fixed {
@@ -698,10 +698,10 @@ video {
   justify-content: center;
 }
 
-.space-x-16 > :not([hidden]) ~ :not([hidden]) {
+.space-x-3 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
-  margin-right: calc(4rem * var(--tw-space-x-reverse));
-  margin-left: calc(4rem * calc(1 - var(--tw-space-x-reverse)));
+  margin-right: calc(0.75rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-y-4 > :not([hidden]) ~ :not([hidden]) {
@@ -741,6 +741,11 @@ video {
           background-clip: text;
 }
 
+.\!px-4 {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -764,8 +769,8 @@ video {
   font-family: manrope-bold;
 }
 
-.text-\[10rem\] {
-  font-size: 10rem;
+.text-\[3\.2rem\] {
+  font-size: 3.2rem;
 }
 
 .font-bold {
@@ -835,9 +840,120 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+@media (min-width: 375px) {
+  .mobile-m\:space-x-\[\.67rem\] > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(.67rem * var(--tw-space-x-reverse));
+    margin-left: calc(.67rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .mobile-m\:text-\[3\.75rem\] {
+    font-size: 3.75rem;
+  }
+}
+
+@media (min-width: 425px) {
+  .mobile-l\:space-x-\[\.67rem\] > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(.67rem * var(--tw-space-x-reverse));
+    margin-left: calc(.67rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .mobile-l\:text-\[4\.25rem\] {
+    font-size: 4.25rem;
+  }
+}
+
+@media (min-width: 480px) {
+  .mobile-xl\:space-x-\[2rem\] > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(2rem * var(--tw-space-x-reverse));
+    margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .mobile-xl\:text-\[4rem\] {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 668px) {
+  .mobile-2xl\:space-x-\[2rem\] > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(2rem * var(--tw-space-x-reverse));
+    margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .mobile-2xl\:text-\[5\.8rem\] {
+    font-size: 5.8rem;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:w-\[80vw\] {
     width: 80vw;
+  }
+
+  .md\:space-x-\[1\.95rem\] > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(1.95rem * var(--tw-space-x-reverse));
+    margin-left: calc(1.95rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .md\:text-\[6\.7rem\] {
+    font-size: 6.7rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .laptop-s\:flex {
+    display: flex;
+  }
+
+  .laptop-s\:hidden {
+    display: none;
+  }
+
+  .laptop-s\:w-16 {
+    width: 4rem;
+  }
+
+  .laptop-s\:space-x-\[2\.65rem\] > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(2.65rem * var(--tw-space-x-reverse));
+    margin-left: calc(2.65rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .laptop-s\:space-x-\[4rem\] > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(4rem * var(--tw-space-x-reverse));
+    margin-left: calc(4rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .laptop-s\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .laptop-s\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .laptop-s\:ps-10 {
+    padding-inline-start: 2.5rem;
+  }
+
+  .laptop-s\:text-\[\.950rem\] {
+    font-size: .950rem;
+  }
+
+  .laptop-s\:text-\[8\.6rem\] {
+    font-size: 8.6rem;
+  }
+
+  .laptop-s\:\*\:px-0 > * {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
@@ -846,7 +962,55 @@ video {
     display: flex;
   }
 
-  .lg\:hidden {
-    display: none;
+  .lg\:space-x-\[3\.7rem\] > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(3.7rem * var(--tw-space-x-reverse));
+    margin-left: calc(3.7rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .lg\:text-\[9rem\] {
+    font-size: 9rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .Desktop-l\:space-x-\[2rem\] > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(2rem * var(--tw-space-x-reverse));
+    margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .Desktop-l\:space-x-\[3\.7rem\] > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(3.7rem * var(--tw-space-x-reverse));
+    margin-left: calc(3.7rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .Desktop-l\:text-\[12\.6rem\] {
+    font-size: 12.6rem;
+  }
+}
+
+@media (min-width: 2560px) {
+  .Desktop-xl\:space-x-\[3\.7rem\] > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(3.7rem * var(--tw-space-x-reverse));
+    margin-left: calc(3.7rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .Desktop-xl\:text-\[22\.5rem\] {
+    font-size: 22.5rem;
+  }
+}
+
+@media (min-width: 3000px) {
+  .\34k\:space-x-\[3\.7rem\] > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(3.7rem * var(--tw-space-x-reverse));
+    margin-left: calc(3.7rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .\34k\:text-\[27rem\] {
+    font-size: 27rem;
   }
 }
