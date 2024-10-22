@@ -3,12 +3,17 @@
 @tailwind utilities;
 
 @layer base {
+
     .menu-li-color {
         @apply text-[#81859f]
     }
 
     .menu-ul {
-        @apply flex fixed top-2 left-1/2 -translate-x-1/2 items-center bg-white/10 px-5 py-2 rounded-full text-white w-max m-auto border-[1px] border-white/10;
+        @apply flex fixed top-2 left-1/2 -translate-x-1/2 items-center bg-[#212121f7] px-5 py-2 rounded-full text-white w-max m-auto border-[1px] border-white/10;
+    }
+
+    .white-btn {
+        @apply bg-white !text-black py-1 hover:shadow-sign-up-btn transition-shadow duration-700 !px-4 rounded-full font-manrope-bold;
     }
 
     @font-face {
