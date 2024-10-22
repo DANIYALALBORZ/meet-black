@@ -23,7 +23,8 @@ module.exports = {
       },
       animation: {
         'meet': "meet 1.5s linear forwards",
-        'black': "black 1.5s linear forwards"
+        'black': "black 1.5s linear forwards",
+        'companies-icons': "companies-icons 1.5s linear forwards",
       },
       keyframes: {
         'meet': {
@@ -45,6 +46,16 @@ module.exports = {
           "100%": {
             transform: 'rotateX(0deg)',
 
+          },
+        },
+        'companies-icons': {
+          "0%": {
+            transform: 'translateY(2rem)',
+            opacity: '0',
+          },
+          "100%": {
+            transform: 'translateY(-2rem)',
+            opacity: '1',
           },
         },
       },

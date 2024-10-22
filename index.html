@@ -8,16 +8,16 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body class="bg-black font-Manrope" style="height: 1000000px;">
+<body class="bg-black font-Manrope">
 
-    <nav class="">
-        <ul id="menu-ul" class="menu-ul opacity-0 transition-all duration-1000  laptop-s:px-5" onload="opacityTrue()">
+    <nav>
+        <ul id="menu-ul" class="menu-ul opacity-0 transition-all duration-1000  laptop-s:px-5 z-50">
             <li>
                 <a href="./">
                     <img class="w-24 laptop-s:w-16" src="./assets/img/meet-Black-Logo.svg" alt="meet black ">
                 </a>
             </li>
-            <li id="hamburger-icon" class="ms-8 laptop-s:hidden">
+            <li id="hamburger-icon" class="ms-8 laptop-s:hidden z-50">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list"
                     viewBox="0 0 16 16">
                     <path fill-rule="evenodd"
@@ -25,7 +25,7 @@
                 </svg>
             </li>
             <ul
-                class="hidden laptop-s:flex items-center *:px-8 laptop-s:*:px-0 laptop-s:text-[.950rem] laptop-s:ps-10 laptop-s:space-x-[2.65rem] Desktop-l:space-x-[2rem] *:menu-li-color px-4 laptop-s:px-0">
+                class="hidden laptop-s:flex items-center z-50 *:px-8 laptop-s:*:px-0 laptop-s:text-[.950rem] laptop-s:ps-10 laptop-s:space-x-[2.65rem] Desktop-l:space-x-[2rem] *:menu-li-color px-4 laptop-s:px-0">
                 <li class="hover:text-white">
                     <a href="#">Experience</a>
                 </li>
@@ -38,18 +38,15 @@
                 <li class="hover:text-white">
                     <a href="#">Download</a>
                 </li>
-                <button
-                    class="bg-white !text-black py-1 hover:shadow-sign-up-btn transition-shadow duration-700 !px-4 rounded-full font-manrope-bold">Sign
+                <button class="white-btn">Sign
                     up</button>
             </ul>
-            <!-- <ul id="hamburger-ul"
-                class="hidden lg:flex absolute -z-10 left-1/2 w-screen md:w-[80vw] rounded-3xl transition-all duration-1000 text-center items-center py-4 space-y-4 -translate-x-1/2 *:menu-li-color px-4 bg-white/10 text-white">
-            </ul> -->
         </ul>
 
-        <div class="fixed top-16 w-full h-full overflow-hidden">
+        <div id="hamburger-ul-container" class="fixed top-16 w-full h-full overflow-hidden z-50 pointer-events-none">
+            <!-- delete pointer-events-none if menu li don't work -->
             <ul id="hamburger-ul"
-                class="laptop-s:hidden absolute flex-col -z-10 -top-60 left-1/2 w-screen md:w-[80vw] rounded-3xl transition-all duration-1000 text-center items-center py-4 space-y-4 -translate-x-1/2 *:menu-li-color px-4 bg-white/10 text-white">
+                class="laptop-s:hidden absolute flex-col -top-60 left-1/2 w-screen md:w-[80vw] rounded-3xl transition-all duration-1000 text-center items-center py-4 space-y-4 -translate-x-1/2 *:menu-li-color px-4 bg-[#212121f7] text-white">
                 <li class="hover:text-white">
                     <a href="#">Experience</a>
                 </li>
@@ -62,22 +59,76 @@
                 <li class="hover:text-white">
                     <a href="#">Download</a>
                 </li>
-                <button
-                    class="bg-white !text-black py-1 hover:shadow-sign-up-btn transition-shadow duration-700 px-4 rounded-full font-bold">Sign
+                <button class="white-btn">Sign
                     up</button>
             </ul>
         </div>
     </nav>
 
-    <section
-        class="w-full h-screen text-white flex justify-center items-center space-x-3 text-[3.2rem] mobile-m:text-[3.75rem] mobile-m:space-x-[.67rem]  mobile-l:text-[4.25rem] mobile-l:space-x-[.67rem] mobile-xl:text-[4rem] mobile-xl:space-x-[2rem] mobile-2xl:text-[5.8rem] mobile-2xl:space-x-[2rem] md:text-[6.7rem] md:space-x-[1.95rem] laptop-s:text-[8.6rem] laptop-s:space-x-[4rem] lg:text-[9rem] lg:space-x-[3.7rem] Desktop-l:text-[12.6rem] Desktop-l:space-x-[3.7rem] Desktop-xl:text-[22.5rem] Desktop-xl:space-x-[3.7rem] 4k:text-[27rem] 4k:space-x-[3.7rem] font-manrope-bold">
-        <div id="meet" class="text-transparent bg-clip-text meet-black-color animate-meet">
-            Meet
+    <section class="w-full h-screen relative">
+        <div class=" h-[24rem] mobile-l:h-[26rem] mobile-2xl:h-[42rem] laptop-s:h-[44rem]"> <!-- edit to 100rem -->
+            <!-- on js => h-[40rem] mobile-2xl:h-[42rem] laptop-s:h-[44rem] -->
+            <!-- <div class="absolute w-52 top-[25%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
+                <div class="relative ">
+                    <img class="absolute w-[11.8rem] rounded-3xl mt-2 left-1/2 -translate-x-1/2"
+                        src="./assets/img/section-one-mobile-screen/Hero-Iphone-Image.webp" alt="">
+                    <img class="absolute w-52"
+                        src="./assets/img/section-one-mobile-screen/iPhone-14-Pro–Space-Black.webp" alt="">
+                </div>
+            </div> -->
+            <div
+                class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex w-full justify-center text-white space-x-3 text-[3.2rem] mobile-m:text-[3.75rem] mobile-m:space-x-[.67rem]  mobile-l:text-[4.25rem] mobile-l:space-x-[.67rem] mobile-xl:text-[4rem] mobile-xl:space-x-[2rem] mobile-2xl:text-[5.8rem] mobile-2xl:space-x-[2rem] md:text-[6.7rem] md:space-x-[1.95rem] laptop-s:text-[8.6rem] laptop-s:space-x-[4rem] lg:text-[9rem] lg:space-x-[3.7rem] Desktop-l:text-[12.6rem] Desktop-l:space-x-[3.7rem] Desktop-xl:text-[22.5rem] Desktop-xl:space-x-[3.7rem] 4k:text-[27rem] 4k:space-x-[3.7rem] font-manrope-bold">
+                <div id="meet" class="text-transparent bg-clip-text meet-black-color animate-meet">
+                    Meet
+                </div>
+                <div id="black" class="text-transparent bg-clip-text meet-black-color animate-black">
+                    Black
+                </div>
+            </div>
         </div>
-        <div id="black" class="text-transparent bg-clip-text meet-black-color animate-black">
-            Black
+        <div class="flex flex-col justify-center">
+            <p class="menu-li-color w-[95%] mx-auto text-center font-manrope-bold">
+                Effortlessly track and manage your time with Black. Customizable reports, invoicing, and
+                integrations
+                make
+                it
+                the perfect tool for freelancers and professionals.
+            </p>
+            <div
+                class="py-4 mobile-xl:py-0 mobile-xl:my-8 flex flex-col w-[95%] mobile-2xl:w-2/3 mobile-xl:relative mobile-xl:flex-row items-center space-y-2 mx-auto">
+                <input
+                    class="rounded-full w-full border-2 border-white/10 bg-[#212121f7] py-3 px-8 placeholder:menu-li-color focus:outline-none focus:ring-[1.5px] focus:ring-white transition duration-700 text-white font-manrope-bold"
+                    type="email" name="email" id="email" placeholder="Enter Your Email">
+                <button
+                    class="mobile-xl:absolute mobile-xl:top-[-8px] mobile-xl:right-0 w-full mobile-xl:w-fit white-btn py-2 mobile-xl:py-3 text-lg">Start
+                    Free
+                    Trial</button>
+            </div>
+            <div class="animate-companies-icons mt-16">
+                <div class="flex flex-col laptop-s:flex-row">
+                    <div class="flex justify-around my-8 laptop-s:w-1/2">
+                        <img width="32" src="./assets/img/section-one-icons/company_Logo01.svg" alt="">
+                        <img width="32" src="./assets/img/section-one-icons/company_Logo02.svg" alt="">
+                        <img width="32" src="./assets/img/section-one-icons/company_Logo03.svg" alt="">
+                        <img width="32" src="./assets/img/section-one-icons/company_Logo04.svg" alt="">
+                    </div>
+                    <div class="flex justify-around laptop-s:w-1/2">
+                        <img width="32" src="./assets/img/section-one-icons/company_Logo05.svg" alt="">
+                        <img width="32" src="./assets/img/section-one-icons/company_Logo06.svg" alt="">
+                        <img width="32" src="./assets/img/section-one-icons/company_Logo07.svg" alt="">
+                        <img width="32" src="./assets/img/section-one-icons/company_Logo08.svg" alt="">
+                    </div>
+                </div>
+                <p
+                    class="text-[#acb0c5] w-[95%] mt-6 laptop-s:mt-0 mx-auto text-center tracking-wider font-manrope-bold">
+                    Trusted by Top-tier product campanies
+                </p>
+            </div>
         </div>
     </section>
+
+
+
     <!-- /////////////////////farnaz///////////////////////// -->
     <section class="mt-16 lg:flex ">
         <div class=" mt-5 lg:w-1/2 xl:pl-10 ">
