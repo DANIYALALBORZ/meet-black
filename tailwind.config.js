@@ -3,6 +3,7 @@ module.exports = {
   content: ["./*.html"],
   theme: {
     extend: {
+
       screens: {
         'mobile-m': '375px',
         'mobile-l': '425px',
@@ -19,7 +20,9 @@ module.exports = {
 
       },
       boxShadow: {
+
         "sign-up-btn": '0 0 12px white',
+        'customShadow': '0px -95px 150px -70px rgb(232, 234, 236)',
       },
       animation: {
         'meet': "meet 1.5s linear forwards",
