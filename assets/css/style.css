@@ -817,6 +817,10 @@ video {
   width: 100% !important;
 }
 
+.w-\[80\%\] {
+  width: 80%;
+}
+
 .-translate-x-1\/2 {
   --tw-translate-x: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1244,6 +1248,14 @@ video {
 }
 
 @media (min-width: 668px) {
+  .mobile-2xl\:mt-20 {
+    margin-top: 5rem;
+  }
+
+  .mobile-2xl\:flex {
+    display: flex;
+  }
+
   .mobile-2xl\:h-\[42rem\] {
     height: 42rem;
   }
@@ -1266,6 +1278,34 @@ video {
 
   .mobile-2xl\:\!w-\[70\%\] {
     width: 70% !important;
+  }
+
+  .mobile-2xl\:w-2\/5 {
+    width: 40%;
+  }
+
+  .mobile-2xl\:w-3\/5 {
+    width: 60%;
+  }
+
+  .mobile-2xl\:w-full {
+    width: 100%;
+  }
+
+  .mobile-2xl\:w-\[95\%\] {
+    width: 95%;
+  }
+
+  .mobile-2xl\:flex-col {
+    flex-direction: column;
+  }
+
+  .mobile-2xl\:justify-around {
+    justify-content: space-around;
+  }
+
+  .mobile-2xl\:gap-8 {
+    gap: 2rem;
   }
 
   .mobile-2xl\:space-x-\[2rem\] > :not([hidden]) ~ :not([hidden]) {
