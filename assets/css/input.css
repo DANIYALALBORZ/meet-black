@@ -16,6 +16,10 @@
         @apply bg-white !text-black py-1 hover:shadow-sign-up-btn transition-shadow duration-700 !px-4 rounded-full font-manrope-bold;
     }
 
+    .custom-container {
+        @apply Desktop-l:*:max-w-[70rem] *:mx-auto;
+    }
+
     @font-face {
         font-family: 'manrope';
         src: url(../font/Manrope/Manrope-Medium.ttf);

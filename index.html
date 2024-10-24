@@ -103,7 +103,7 @@
             </div>
         </div>
         </div>
-        <div class="flex flex-col justify-center ">
+        <div class="flex flex-col justify-center custom-container">
             <p class="menu-li-color w-[95%] mx-auto text-center font-manrope-bold">
                 Effortlessly track and manage your time with Black. Customizable reports, invoicing, and
                 integrations
@@ -112,7 +112,7 @@
                 the perfect tool for freelancers and professionals.
             </p>
             <div
-                class="py-4 mobile-xl:py-0 mobile-xl:my-8 flex flex-col w-[95%] mobile-2xl:w-2/3 mobile-xl:relative mobile-xl:flex-row items-center space-y-2 mx-auto">
+                class="mobile-xl:relative py-4 mobile-xl:py-0 mobile-xl:my-8 flex flex-col w-[95%] mobile-2xl:w-2/3 mobile-xl:flex-row items-center space-y-2 mx-auto custom-container">
                 <input
                     class="rounded-full w-full border-2 border-white/10 bg-[#212121f7] py-3 px-8 placeholder:menu-li-color focus:outline-none focus:ring-[1.5px] focus:ring-white transition duration-700 text-white font-manrope-bold"
                     type="email" name="email" id="email" placeholder="Enter Your Email">
@@ -121,7 +121,7 @@
                     Free
                     Trial</button>
             </div>
-            <div class="animate-companies-icons mt-16">
+            <div class="animate-companies-icons mt-16 !w-full  mobile-2xl:!w-[70%]">
                 <div class="flex flex-col laptop-s:flex-row">
                     <div class="flex justify-around my-8 laptop-s:w-1/2">
                         <img width="32" src="./assets/img/section-one-icons/company_Logo01.svg" alt="">
@@ -144,76 +144,91 @@
         </div>
     </section>
 
-    <section class="container">
+    <section class="custom-container laptop-s:w-[90%] mx-auto">
         <h2
-            class="mt-96 text-center w-[95%] text-[#cacacc] text-[34px] font-manrope-bold pl-3 md:text-6xl md:pl-8 lg:text-[75px] lg:text-white lg:mt-24 lg:leading-[90px] xl:pr-6">
+            class="mx-auto mt-96 text-center w-[95%] text-[#cacacc] text-[34px] font-manrope-bold pl-3 md:text-6xl md:pl-8 lg:text-[75px] lg:text-white lg:mt-24 lg:leading-[90px] xl:pr-6">
             Experience your product as you create it.
         </h2>
 
-        <!-- card 1 -->
-        <div class="mt-20 w-[90vw] mx-auto bg-[#161B22] rounded-2xl border-2 border-white/10">
-            <div class="relative">
-                <img src="./assets/img/Cards/Card-Image-2.webp" alt="">
-                <div class="absolute bottom-0 effortlessly-card-img-effect w-full h-[40%] z-10"></div>
-            </div>
-            <h3 class="mt-3 text-center text-[1.4rem] tracking-wider text-white/90 font-manrope-bold">
-                Effortlessly tracking with Black
-            </h3>
-            <p class="mt-2 mb-6 text-center text-[#acb0c5] w-[90%] mx-auto">
-                Designed for you, Black is the perfect solution for you and your teams tracking time."
-            </p>
-        </div>
-        <!-- card 1 -->
+        <!-- Cards -->
+        <div class="custom-container laptop-s:flex laptop-s:flex-col">
 
-        <!-- card 2 -->
-        <div class="mt-8 w-[90vw] mx-auto bg-[#161B22] rounded-2xl border-2 border-white/10">
-            <div class="relative">
-                <img src="./assets/img/Cards/Level.webp" alt="">
-            </div>
-            <h3 class="mt-3 text-center text-[1.4rem] tracking-wider text-white/90 font-manrope-bold">
-                Save time your time
-            </h3>
-            <p class="mt-2 mb-6 text-center text-[#acb0c5] w-[90%] mx-auto">
-                Available on iOS and Android, Black is accessible from any device.
-            </p>
-        </div>
-        <!-- card 2 -->
+            <div class="laptop-s:w-full laptop-s:flex laptop-s:gap-8">
+                <!-- card 1 -->
+                <div
+                    class="laptop-s:w-3/5 mt-20 w-[90vw] mx-auto bg-[#161B22] rounded-2xl border-2 border-white/10 laptop-s:flex laptop-s:flex-col laptop-s:justify-around">
+                    <div class="relative">
+                        <img src="./assets/img/Cards/Card-Image-2.webp" alt="">
+                        <div class="absolute bottom-0 effortlessly-card-img-effect w-full h-[40%] z-10"></div>
+                    </div>
+                    <h3 class="mt-3 text-center text-[1.4rem] tracking-wider text-white/90 font-manrope-bold">
+                        Effortlessly tracking with Black
+                    </h3>
+                    <p class="mt-2 mb-6 text-center text-[#acb0c5] w-[90%] mx-auto">
+                        Designed for you, Black is the perfect solution for you and your teams tracking time."
+                    </p>
+                </div>
+                <!-- card 1 -->
 
-        <!-- card 3 -->
-        <div class="mt-8 w-[90vw] mx-auto bg-[#161B22] rounded-2xl border-2 border-white/10">
-            <div class="relative">
-                <img src="./assets/img/Cards/Level 02.webp" alt="">
-                <div class="absolute bottom-0 effortlessly-card-img-effect w-full h-[40%] z-10"></div>
+                <!-- card 2 -->
+                <div
+                    class="laptop-s:w-2/5 mt-8 laptop-s:mt-20 w-[90vw] mx-auto bg-[#161B22] rounded-2xl border-2 border-white/10 laptop-s:flex laptop-s:flex-col laptop-s:justify-around">
+                    <div class="relative">
+                        <img src="./assets/img/Cards/Level.webp" alt="">
+                    </div>
+                    <h3 class="mt-3 text-center text-[1.4rem] tracking-wider text-white/90 font-manrope-bold">
+                        Save time your time
+                    </h3>
+                    <p class="mt-2 mb-6 text-center text-[#acb0c5] w-[90%] mx-auto">
+                        Available on iOS and Android, Black is accessible from any device.
+                    </p>
+                </div>
+                <!-- card 2 -->
             </div>
-            <h3 class="mt-3 text-center text-[1.4rem] tracking-wider text-white/90 font-manrope-bold">
-                Tracking
-            </h3>
-            <p class="mt-2 mb-6 text-center text-[#acb0c5] w-[90%] mx-auto">
-                Comes with built-in workflows that create focus and routine.
-            </p>
-        </div>
-        <!-- card 3 -->
 
-        <!-- card 4 -->
-        <div class="overflow-hidden mt-8 w-[90vw] mx-auto bg-[#161B22] rounded-2xl border-2 border-white/10">
-            <h3 class="mt-3 text-center text-[1.4rem] tracking-wider text-white/90 font-manrope-bold">
-                Experience seamless tracking
-            </h3>
-            <p class="mt-2 mb-6 text-center text-[#acb0c5] w-[90%] mx-auto">
-                Awarded App of the day, Black has been recognized as the top choice for teams and individuals."
-            </p>
-            <div class="relative">
-                <img src="./assets/img/Cards/Visitor Insights 02.webp" alt="">
-                <div class="absolute bottom-0 effortlessly-card-img-effect w-full h-[40%] z-10"></div>
+            <div class="laptop-s:w-full laptop-s:flex laptop-s:gap-8">
+                <!-- card 3 -->
+                <div
+                    class="laptop-s:w-2/5 mt-8 w-[90vw] mx-auto bg-[#161B22] rounded-2xl border-2 border-white/10 laptop-s:flex laptop-s:flex-col laptop-s:justify-around">
+                    <div class="relative">
+                        <img src="./assets/img/Cards/Level 02.webp" alt="">
+                        <div class="absolute bottom-0 effortlessly-card-img-effect w-full h-[40%] z-10"></div>
+                    </div>
+                    <h3 class="mt-3 text-center text-[1.4rem] tracking-wider text-white/90 font-manrope-bold">
+                        Tracking
+                    </h3>
+                    <p class="mt-2 mb-6 text-center text-[#acb0c5] w-[90%] mx-auto">
+                        Comes with built-in workflows that create focus and routine.
+                    </p>
+                </div>
+                <!-- card 3 -->
+
+                <!-- card 4 -->
+                <div
+                    class="laptop-s:w-3/5 overflow-hidden mt-8 w-[90vw] mx-auto bg-[#161B22] rounded-2xl border-2 border-white/10 laptop-s:flex laptop-s:flex-col laptop-s:justify-around">
+                    <h3 class="mt-3 text-center text-[1.4rem] tracking-wider text-white/90 font-manrope-bold">
+                        Experience seamless tracking
+                    </h3>
+                    <p class="mt-2 mb-6 text-center text-[#acb0c5] w-[90%] mx-auto">
+                        Awarded App of the day, Black has been recognized as the top choice for teams and individuals."
+                    </p>
+                    <div class="relative">
+                        <img src="./assets/img/Cards/Visitor Insights 02.webp" alt="">
+                        <div class="absolute bottom-0 effortlessly-card-img-effect w-full h-[40%] z-10"></div>
+                    </div>
+                </div>
+                <!-- card 4 -->
             </div>
+
         </div>
-        <!-- card 4 -->
+        <!-- End of Cards -->
+
     </section>
 
 
 
     <!-- /////////////////////farnaz///////////////////////// -->
-    <section class="mt-16 lg:flex ">
+    <section class="mt-16 lg:flex Desktop-l:max-w-[80rem] mx-auto">
         <div class=" mt-5 lg:w-1/2 xl:pl-10 ">
             <h2
                 class="text-[#cacacc] text-[34px] font-manrope-bold pl-3 md:text-6xl md:pl-8 lg:text-[75px] lg:text-white lg:mt-24 lg:leading-[90px] xl:pr-6">
